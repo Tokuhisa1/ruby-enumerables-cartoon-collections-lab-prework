@@ -24,7 +24,7 @@ def find_the_cheese(foods) # code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
   
   foods.each do | food |
-    if cheese_types.include(food)
+    if cheese_types.include?(food)
       return food
     end
   end
